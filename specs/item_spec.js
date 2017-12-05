@@ -18,9 +18,9 @@ beforeEach(function () {
      assert.strictEqual(item.price, 12);
    });
 
-  // it('should have a price', function () {
-  //    assert.strictEqual(item.price, 12);
-  //  });
+  it('should have a bogof value', function () {
+     assert.strictEqual(item.bogof, true);
+   });
 
 
 })
