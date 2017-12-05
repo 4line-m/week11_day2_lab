@@ -24,4 +24,11 @@ it('shoppingBasket should start empty', function () {
     assert.strictEqual(shoppingBasket.countOfItems(), 2);
   });
 
+  it('shoppingBasket should remove items', function () {
+     shoppingBasket.addItem(item1);
+     shoppingBasket.addItem(item2);
+     shoppingBasket.removeItem(item1);
+     assert.strictEqual(shoppingBasket.countOfItems(), 1);
+   });
+
 });

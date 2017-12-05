@@ -10,4 +10,8 @@ ShoppingBasket.prototype.addItem = function (item) {
   this.basket.push(item);
 }
 
+ShoppingBasket.prototype.removeItem = function (item) {
+  this.basket.pop(item);
+}
+
 module.exports = ShoppingBasket;
