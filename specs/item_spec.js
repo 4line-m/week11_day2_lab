@@ -14,5 +14,13 @@ beforeEach(function () {
      assert.strictEqual(item.name, 'whipped cream');
    });
 
+  it('should have a price', function () {
+     assert.strictEqual(item.price, 12);
+   });
+
+  // it('should have a price', function () {
+  //    assert.strictEqual(item.price, 12);
+  //  });
+
 
 })
