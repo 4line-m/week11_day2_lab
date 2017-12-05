@@ -7,6 +7,11 @@ let shoppingBasket;
 
 beforeEach( function () {
   shoppingBasket = new ShoppingBasket();
-})
+});
 
-}
+it('shoppingasket should start empty', function () {
+   assert.strictEqual(shoppingBasket.countOfItems(), 0);
+ });
+
+
+});
